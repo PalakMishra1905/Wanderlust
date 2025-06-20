@@ -1,0 +1,17 @@
+<!-- Success flash -->
+<% if(success && success.length){ %>
+    <div class="alert alert-success mb-3 alert-dismissible fade show
+    col-6 offset-3" role="alert">
+       <%= success[0] %>
+       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
+
+<!-- Error flash -->
+<% if(error && error.length){ %>
+    <div class="alert alert-danger mb-3 alert-dismissible fade show
+    col-6 offset-3" role="alert">
+       <%= error[0] %>
+       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+<% } %>
