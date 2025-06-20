@@ -141,10 +141,10 @@ app.delete("/listings/:id/reviews/:reviewId",isLoggedIn,isReviewAuthor, wrapAsyn
 app.use('/listings', listingRouter);
 app.use("/", userRouter);
 
-
-// app.all("*", (req, res, next) => {
-//     next(new ExpressError(404, "Page not found"));
-// });
+//Page not found Route.
+app.all(/.*/, (req, res) => {
+  res.status(404).render("./404.ejs"); // Render a view, no redirect
+});
 
 app.use((err, req, res, next) => {
     const { statusCode = 500, message = "Something went wrong!" } = err;
