@@ -6,6 +6,7 @@ Wanderlust is a full-stack listing website where users can **add**, **view**, **
 
 - https://wanderlust-4-rico.onrender.com/listings
 
+
 ## 🔧 Technologies Used
 
 - **Frontend:** EJS, Bootstrap, HTML/CSS
