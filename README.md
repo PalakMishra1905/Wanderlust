@@ -2,6 +2,10 @@
 
 Wanderlust is a full-stack listing website where users can **add**, **view**, **update**, and **delete** campground listings. It supports user authentication, image uploads with Cloudinary, and review/comment functionality.
 
+## 🌐 Live Demo
+
+- https://wanderlust-4-rico.onrender.com/listings
+
 ## 🔧 Technologies Used
 
 - **Frontend:** EJS, Bootstrap, HTML/CSS
@@ -20,10 +24,6 @@ Wanderlust is a full-stack listing website where users can **add**, **view**, **
 - Flash messages for success/error
 - Server-side validation with Joi
 - Responsive UI using Bootstrap
-
-## 🌐 Live Demo
-
-- https://wanderlust-4-rico.onrender.com/listings
 
 ## 🚀 Getting Started
 
